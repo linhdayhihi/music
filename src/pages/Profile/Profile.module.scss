@@ -1,0 +1,225 @@
+.profile {
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    //background-color: #170F23;
+    background-image: linear-gradient(to top, #5d3c21, #edac7b);
+    display: flex;
+}
+
+.header-img_round {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #bee9e8;
+}
+
+.header-name {
+
+}
+
+.header-name_main {
+    cursor: pointer;
+}
+
+.header-img_round, .header-name {
+    margin: 100px 0px 20px 10px;
+}
+
+.header-img_round:hover {
+    opacity: 0.6;
+}
+
+.iconDots {
+    margin-left: 10px;
+    font-size: 30px;
+    color: #b3b3b3;
+}
+
+.iconDots:hover {
+    color: #fff;
+}
+
+.list {
+    background-image: linear-gradient(to top, #121212, #472f1c);
+    //background-color: #4b3939;
+    padding-bottom: 200px;
+}
+
+.list-select {
+    display: none;
+    background-color: black;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    list-style-type: none;
+    margin: -10px 0px 0px 8px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.list-select > li {
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin: auto;
+    user-select: none;
+}
+
+.list-select > li:hover {
+    background-color: #3E3E3E;
+}
+
+.list-select:hover {
+    display: block;
+}
+
+.list-select_1 {
+    margin-top: 5px;
+}
+
+.list-select_2 {
+    margin-bottom: 5px;
+}
+
+.list-hidden_background {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.2;
+}
+
+.list-hidden_content {
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 530px;
+    height: 440px;
+    border-radius: 10px;
+    background-color: #282828;
+    opacity: 1 !important;
+}
+
+.list-hidden_content-header {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.list-hidden_content-header > h1 {
+
+}
+
+.iconXmark {
+    font-size: 30px;
+    border: 1px;
+    border-color: #c7c2c2;
+}
+
+.iconXmark::before {
+    cursor: pointer;
+
+}
+
+.iconXmark:hover {
+    color: #fff;
+}
+
+.list-hidden_content-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-input-image {
+    width: 160px;
+    margin-left: 60%;
+    margin-top: 15px;
+}
+
+.list-hidden_content-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 4px solid #bee9e8;
+}
+
+.list-hidden_content-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.list-hidden_content-data {
+    height: 280px;
+}
+
+.list-hidden_content-label {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.list-hidden_content-input {
+    background-color: #3E3E3E;
+    color: #fff;
+    height: 40px;
+    width: 240px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.list-hidden_content-input:hover {
+    border: 1px solid #bee9e8;
+}
+
+.list-hidden_content-checkPass {
+    color: red;
+}
+
+.list-hidden_content-button {
+    background-color: #fff;
+    width: 95px;
+    height: 50px;
+    margin: 0px 10px 0px 140px;
+    border-radius: 30px;
+}
+
+.iconDots:hover + .list-select {
+    display: block;
+}
+
+.list-link {
+    width: 100%;
+    display: flex;
+    padding: 0px 20px 20px 20px;
+    justify-content: space-between;
+}
+
+.list-link > a {
+    font-size: 20px;
+    color: #bee9e8;
+    text-decoration: none;
+}
+
+.list-link > a:hover {
+    text-decoration: underline;
+}
+
+.list-container {
+    display: flex;
+    justify-content:space-around;
+}

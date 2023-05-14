@@ -1,0 +1,70 @@
+.wrapper {
+    width: 100%;
+    height: 70px;
+    background-color: var(--sidebar-popup-bg);
+    display: flex;
+    border-top: 1px var(--border-color);
+    box-shadow: 0px -1px 10px var(--player-bg);
+    position: fixed;
+    bottom: 0;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 20px;
+    justify-content: space-between;
+    color: var(--text-color);
+}
+
+.control-left {
+    display: flex;
+    min-width: 240px;
+    flex-direction: row;
+    width: 25%;
+    & .control-left-text {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;
+
+        & .song-title {
+            text-decoration: none;
+
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: large;
+
+            & :hover {
+                color: var(--text-secondary);
+            }
+        }
+    }
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    width: 400px;
+    min-width: 200px;
+}
+
+.controler {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+
+
+.control-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 0;
+    width: 25%;
+    min-width: 150px;
+}
